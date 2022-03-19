@@ -1,0 +1,318 @@
+@font-face  {
+    font-family: Megabyte-Bold;
+    src: url('Megabyte-Bold.ttf');
+}
+@font-face  {
+    font-family: Megabyte-Regular;
+    src: url('Megabyte-Regular.ttf');
+}
+b{
+    font-family: Megabyte-Bold;
+    font-size: 24px;
+    color:rgb(38, 25, 226);
+    float: left;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+li{
+    float: left;
+    list-style: none;
+    padding: 20px;
+}
+nav{
+    float: right;
+    margin-right: 100px;
+}
+.button1{
+    background-color: rgb(38, 25, 226); /* Blue */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -100px;
+    font-family: Megabyte-Bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    font-family: Megabyte-Bold;
+    color: rgb(78, 78, 78);
+}
+li:hover a{
+    color:rgb(38, 25, 226)
+}
+header{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    float: left;
+    font-family: Megabyte-Bold;
+    font-size: 50px;
+    color:rgb(40, 53, 128);
+    margin-top: 160px;
+    margin-left: -145px;
+}
+div{
+    float:none;
+    margin-left: 100px;
+    font-family: Megabyte-Regular;
+    color: rgb(109, 109, 109);
+}
+img{
+    float: right;
+    margin-top: -300px;
+}
+.button2{
+    background-color: rgb(38, 25, 226); /* Blue */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -100px;
+    font-family: Megabyte-Bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.bestprotection {
+    font-family: 'Megabyte-Regular';
+    font-size: 14px;
+    color:rgb(3, 0, 43)
+}
+.bestprotect{
+    float: left;
+    margin-top: 0px;
+    margin-right: 5px;
+    width: 30px;
+}
+.star{
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: -40px;
+    width: 30px;
+}
+.startext{
+    float: right;
+    margin-right: 300px;
+    margin-top: -54px;
+    font-family: 'Megabyte-Regular';
+    font-size: 14px;
+    color:rgb(3, 0, 43)
+}
+.div2 {
+    width: 50%;
+    margin-left: 150px;
+    background-color: white;
+    color: rgb(187, 187, 187);
+    padding: 15px;
+}
+.divh4{
+    margin-left: 110px;
+    font-size: 14px;
+    color:rgb(3, 0, 43)
+}
+.footer1{
+    float: left;
+    margin-left: -70px;
+}
+.second{
+    float: left;
+    margin-left: 250px;
+}
+.table1{
+    float: left;
+    text-align: left;
+    padding: 100px;
+    font-family: Megabyte-Regular;
+    color: rgb(3, 0, 43);
+    border-collapse: separate;
+    border-spacing: 50px 5px;
+}
+.inorder{
+    margin-left: -140px;
+}
+.woman{
+    float: left;
+    margin-top: 150px;
+}
+.preparation{
+    float: right;
+    margin-top: -70px;
+    margin-right: 90px;
+}
+.thesuccess{
+    margin-left: -140px;
+    color: rgb(80, 77, 119);
+}
+.avoid{
+    float: left;
+    color: rgb(40, 53, 128);
+    font-weight: bold;
+    margin-top: 50px;
+}
+.stresstext{
+    color: rgb(80, 77, 119);
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+summary{
+    cursor: pointer;
+}
+
+details summary:after {
+    font-family: "FontAwesome";
+    content: "\f107";
+    color: rgb(38, 25, 226);
+    position: absolute;
+    font-size: 1.50rem;
+    line-height: 0;
+    margin-top: 0.75rem;
+    margin-right: 400px;
+    right: 0;
+    font-weight: 200;
+    transform-origin: center;
+    transition: 200ms linear;
+}
+  details[open] summary:after{
+    transform: rotate(180deg);
+    color: rgb(109, 109, 109);
+    font-size: 1.50rem;
+}
+.emergencycontact{
+    float: left;
+    margin-top: 500px;
+    margin-left: -570px;
+}
+.emergencytext{
+    margin-left: -140px;
+}
+.man{
+    float: right;
+    margin-top: 400px;
+}
+.squares{
+    float: left;
+    margin-top: 600px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: 200px;
+}
+.communication{
+    color: rgb(40, 53, 128);
+    background-color: white; /* Blue */
+    border: rgb(245, 245, 245);
+    border-radius: 10px;
+    padding: 12px 28px;
+    text-align: left;
+    border-style: solid; border-width: 1px;
+    margin-bottom: 20px;
+}
+.communication:hover{
+    box-shadow: 5px 5px 20px rgb(208, 213, 245);
+    transition: box-shadow .5s;
+}
+.number{
+    color: rgb(109, 109, 109);
+    font-size: 12px;
+    margin-top: -15px;
+    margin-left: 60px;
+}
+.button3{
+    background-color: rgb(231, 230, 255); /* Blue */
+    border: none;
+    border-radius: 5px;
+    color: rgb(38, 25, 226);
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    font-family: Megabyte-Bold;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.phone{
+    margin-top: 18px;
+    margin-right: 10px;
+    float: left;
+}
+.chat{
+    margin-top: 18px;
+    margin-right: 10px;
+    float: left;
+}
+.message{
+    margin-top: 18px;
+    margin-right: 10px;
+    float: left;
+}
+.messagemargin{
+    margin-right: -100px;
+}
+b{
+    text-decoration: none;
+    font-family: Megabyte-Bold;
+    color: rgb(78, 78, 78);
+}
+.button3:hover {
+    background-color: rgb(38, 25, 226); /* Blue */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    font-family: Megabyte-Bold;
+    font-size: 16px;
+    box-shadow: 0px 5px 20px rgb(162, 169, 209);
+    transition-property: box-shadow, background-color, color;
+    transition-duration: .5s;
+}
+footer{
+    background-color: rgb(230, 233, 255);
+    margin-top: 2700px;
+    padding: 150px 10px;
+    width: 1320px;
+}
+.footertitle{
+    font-family: Megabyte-Bold;
+    margin-top: -90px;
+    color: rgb(38, 25, 226);
+}
+.footerabout{
+    float: right;
+    margin-top: -150px;
+    margin-right: 10px;
+}
+.tableabout{
+    border-spacing: 90px 20px;
+}
+.topabout{
+    font-family: Megabyte-Bold;
+    color: rgb(40, 53, 128);
+    font-size: 20px;
+}
+.creditsfooter{
+    float: bottom;
+    margin-top: 200px;
+}
+.termsandconditions{
+    float: right;
+    margin-top: -60px;
+    margin-right: 100px;
+}
